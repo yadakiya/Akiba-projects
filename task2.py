@@ -1,0 +1,18 @@
+student_name=input("Enter your name: ")
+student_id=input("Enter your student ID:  ")
+department=input("Enter department you  study")
+year=int(input("Enter your year: "))
+university = input("Enter your university: ")
+phone_number = input("Enter your phone number: ")
+
+
+print("\n+--------------------------------------+")
+print("|          STUDENT ID CARD             |")
+print("+--------------------------------------+")
+print(f"| Name: {student_name:<29}|")
+print(f"| ID: {student_id:<31}|")
+print(f"| Department: {department:<24}|")
+print(f"| Year: {year:<30}|")
+print(f"| University: {university:<24}|")
+print(f"| Phone: {phone_number:<29}|")
+print("+--------------------------------------+")
